@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% block title%}Guardian Skill Report{% endblock %}</title>
+
+    <script src="/js/nunjucks.js"></script>
+    <script src="/js/templates.js"></script>
+    <script src="/js/app.js"></script>
+
+    <style>
+    body {
+    margin: 0%;
+    padding: 0%;
+    background: #C8C1BB;
+    }
+    </style>
+  </head>
+  <body>
+    {% block content %}{% endblock %}
+
+    <div class="footer">
+
+    {% block footer %}{% endblock %}
+
+    </div>
+  </body>
+</html>
